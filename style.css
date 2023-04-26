@@ -27,6 +27,7 @@
 }
 
 .tasks__text {
+  outline: none;
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -48,17 +49,8 @@
   padding: 0px;
 }
 
-li,
-h3 {
-  list-style: none;
-}
-
-input,
-button {
-  outline: none;
-}
-
 .btn {
+  outline: none;
   background: none;
   border: 0px;
   color: #888;
@@ -74,6 +66,7 @@ button {
 
 /* Heading */
 .tasks__title {
+  list-style: none;
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -96,6 +89,7 @@ button {
 
 /* Task list */
 .tasks__item {
+  list-style: none;
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
